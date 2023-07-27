@@ -4,7 +4,7 @@ let currentNavColor='';
 // loading screen
 $(document).ready(function(){
     $("#loading").fadeOut(400,function(){
-        $("body").css("overflow-y","auto")
+    $("body").css("overflow","auto");
     });
 })
 
